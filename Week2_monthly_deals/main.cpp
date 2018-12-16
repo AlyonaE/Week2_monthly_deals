@@ -35,6 +35,7 @@ int main() {
 	for (auto& i : v) {
 		cin >> i;
 	}
+	//comment for testing
 	sort(begin(v), end(v), CompStrings);
 	for (const auto& i : v) {
 		cout << i << ' ';
